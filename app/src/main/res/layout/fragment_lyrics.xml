@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bewedoc"
+    tools:context=".LyricsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lyrics"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:id="@+id/lyrics_name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_lyrics"
+        android:inputType="text"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:hint="Search Lyrics"
+        android:layout_marginTop="150dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/find_lyrics"
+        android:text="Find Lyrics"
+        android:layout_below="@id/search_lyrics"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/button_background" />
+
+    <!--lyrics loaded here -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/load_lyrics_here">
+
+    </RelativeLayout>
+
+</RelativeLayout>

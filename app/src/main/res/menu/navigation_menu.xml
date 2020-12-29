@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/website"
+            android:title="www.oxy-music.com"
+            android:icon="@drawable/ic_computer">
+        </item>
+    </group>
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/share"
+            android:title="Share"
+            android:icon="@drawable/ic_share">
+        </item>
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/developer"
+            android:title="John Ngala"
+            android:icon="@drawable/ic_developer"
+            >
+        </item>
+    </group>
+
+    <group android:id="@+id/group4"> <item
+        android:id="@+id/version"
+        android:title="Version 1.0"
+        android:icon="@drawable/ic_update">
+    </item></group>
+
+</menu>
